@@ -2,6 +2,9 @@
 
 ![React Native Tab Navigation Demo](assets/demo.gif)
 
+![React Native Tab Navigation Demo](assets/demo-with-icons.gif)
+
+
 ## Description
 
 This is a simple React Native app that demonstrates the usage of Tab Navigation using the `@react-navigation` library. The app consists of three tabs: Home, Profile, and Settings, each with its own unique screen.
