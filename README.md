@@ -2,7 +2,7 @@
 
 ![React Native Tab Navigation Demo](assets/demo.gif)
 
-![React Native Tab Navigation Demo](assets/demo-with-icons.gif)
+![React Native Tab Navigation Demo](https://github.com/amoltdhage/ReactNavigation-TabNavigatorApp/blob/main/assets/demo-with-icons.gif)
 
 
 ## Description
