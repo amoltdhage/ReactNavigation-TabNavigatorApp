@@ -1,6 +1,6 @@
 # React Native Tab Navigation Demo
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px;">
   <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
     <div style="margin-bottom: 10px;">gif 1</div>
     <img src="assets/demo.gif" alt="React Native Tab Navigation Demo" width="100%">
