@@ -90,3 +90,289 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+
+<!-- // import React from 'react';
+
+// import { Text, View, StyleSheet } from 'react-native';
+
+// import { NavigationContainer } from '@react-navigation/native';
+
+// import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
+
+
+// const Tab = createBottomTabNavigator();
+
+
+
+// const App = () => {
+
+//   return (
+
+//     <NavigationContainer>
+
+//       <Tab.Navigator
+
+//         screenOptions={({ route }) => ({
+
+//           tabBarLabel: ({ focused }) => (
+
+//             <Text style={{ fontWeight: focused ? 'bold' : 'normal', color: focused ? '#3498db' : '#bdc3c7' }}>
+
+//               {route.name}
+
+//             </Text>
+
+//           ),
+
+//         })}
+
+//       >
+
+//         <Tab.Screen name='Home' component={HomeScreen} />
+
+//         <Tab.Screen name='Profile' component={ProfileScreen} />
+
+//         <Tab.Screen name='Settings' component={SettingsScreen} />
+
+//       </Tab.Navigator>
+
+//     </NavigationContainer>
+
+//   );
+
+// };
+
+
+
+// const HomeScreen = () => {
+
+//   return (
+
+//     <View style={[styles.container, { backgroundColor: '#3498db' }]}>
+
+//       <Text style={styles.text}>Home!</Text>
+
+//     </View>
+
+//   );
+
+// };
+
+
+
+// const ProfileScreen = () => {
+
+//   return (
+
+//     <View style={[styles.container, { backgroundColor: '#2ecc71' }]}>
+
+//       <Text style={styles.text}>Profile!</Text>
+
+//     </View>
+
+//   );
+
+// };
+
+
+
+// const SettingsScreen = () => {
+
+//   return (
+
+//     <View style={[styles.container, { backgroundColor: '#e74c3c' }]}>
+
+//       <Text style={styles.text}>Settings!</Text>
+
+//     </View>
+
+//   );
+
+// };
+
+
+
+// const styles = StyleSheet.create({
+
+//   container: {
+
+//     flex: 1,
+
+//     justifyContent: 'center',
+
+//     alignItems: 'center',
+
+//   },
+
+//   text: {
+
+//     color: '#fff',
+
+//     fontSize: 18,
+
+//   },
+
+// });
+
+
+
+// export default App;
+
+
+
+// import React from 'react';
+
+// import { Text, View, StyleSheet } from 'react-native';
+
+// import { NavigationContainer } from '@react-navigation/native';
+
+// import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
+
+
+// const Tab = createBottomTabNavigator();
+
+
+
+// const App = () => {
+
+//   return (
+
+//     <NavigationContainer>
+
+//       <Tab.Navigator
+
+//         screenOptions={({ route }) => ({
+
+//           tabBarLabel: ({ focused }) => (
+
+//             <Text style={{ fontWeight: focused ? 'bold' : 'normal', color: focused ? '#3498db' : '#bdc3c7' }}>
+
+//               {route.name}
+
+//             </Text>
+
+//           ),
+
+//         })}
+
+//       >
+
+//         <Tab.Screen
+
+//           name='Home'
+
+//           component={HomeScreen}
+
+//           options={{ tabBarIcon: () => <Text>🏠</Text> }}
+
+//         />
+
+//         <Tab.Screen
+
+//           name='Profile'
+
+//           component={ProfileScreen}
+
+//           options={{ tabBarIcon: () => <Text>👤</Text> }}
+
+//         />
+
+//         <Tab.Screen
+
+//           name='Settings'
+
+//           component={SettingsScreen}
+
+//           options={{ tabBarIcon: () => <Text>⚙️</Text> }}
+
+//         />
+
+//       </Tab.Navigator>
+
+//     </NavigationContainer>
+
+//   );
+
+// };
+
+
+
+// const HomeScreen = () => {
+
+//   return (
+
+//     <View style={[styles.container, { backgroundColor: '#3498db' }]}>
+
+//       <Text style={styles.text}>Home!</Text>
+
+//     </View>
+
+//   );
+
+// };
+
+
+
+// const ProfileScreen = () => {
+
+//   return (
+
+//     <View style={[styles.container, { backgroundColor: '#2ecc71' }]}>
+
+//       <Text style={styles.text}>Profile!</Text>
+
+//     </View>
+
+//   );
+
+// };
+
+
+
+// const SettingsScreen = () => {
+
+//   return (
+
+//     <View style={[styles.container, { backgroundColor: '#e74c3c' }]}>
+
+//       <Text style={styles.text}>Settings!</Text>
+
+//     </View>
+
+//   );
+
+// };
+
+
+
+// const styles = StyleSheet.create({
+
+//   container: {
+
+//     flex: 1,
+
+//     justifyContent: 'center',
+
+//     alignItems: 'center',
+
+//   },
+
+//   text: {
+
+//     color: '#fff',
+
+//     fontSize: 18,
+
+//   },
+
+// });
+
+
+
+// export default App;
+
+
+-->
