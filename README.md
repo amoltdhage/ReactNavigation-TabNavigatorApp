@@ -1,11 +1,16 @@
 # React Native Tab Navigation Demo
 
-<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-  <img src="assets/demo.gif" alt="React Native Tab Navigation Demo" width="25%" style="margin-right: 50px;"> 
-
-
-  <img src="https://github.com/amoltdhage/ReactNavigation-TabNavigatorApp/blob/main/assets/demo-with-icons.gif" alt="React Native Tab Navigation Demo with Icons" width="25%" style="margin-left: 10px;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <div style="margin-bottom: 10px;">gif 1</div>
+    <img src="assets/demo.gif" alt="React Native Tab Navigation Demo" width="100%">
+  </div>
+  <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <div style="margin-bottom: 10px;">gif 2</div>
+    <img src="https://github.com/amoltdhage/ReactNavigation-TabNavigatorApp/blob/main/assets/demo-with-icons.gif" alt="React Native Tab Navigation Demo with Icons" width="100%">
+  </div>
 </div>
+
 
 
 
